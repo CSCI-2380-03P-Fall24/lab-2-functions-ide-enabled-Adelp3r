@@ -51,7 +51,7 @@ void printArray(int array[], int size) {
 	for(int i = 0; i < size; i++){
 		cout << array[i];
 
-		if(i < size){
+		if(i < size - 1){
 			cout << ", ";
 		}
 		
