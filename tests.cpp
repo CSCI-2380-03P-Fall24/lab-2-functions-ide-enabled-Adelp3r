@@ -41,7 +41,7 @@ TEST_CASE("replaceVariable") {
 	CHECK(myarray[5] != myarray[8]);
 }
 
-TEST_CASE("sumOdds") {
+TEST_CASE("sumOddsTest") {
 	int myarray[] = { 16,3,75,40,21,40,44,52,40,90,22 };
 	int target = 40;
 
